@@ -372,7 +372,7 @@ body {
 .video__item--1 {
   background-color: #E53935; /* 99DDFF ; material design 600 */
   background-image: url("/img/home/sc-blink.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .video__layer--1 {
@@ -391,8 +391,8 @@ body {
 
 .video__item--3 {
   background-color: #eca700; /* F0DFC0 */
-  background-image: url("/img/home/kom-2015.png");
-  background-size: contain;
+  background-image: url("/img/home/kom-2015.jpg");
+  background-size: cover;
 }
 
 .video__layer--3 {
