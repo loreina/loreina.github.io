@@ -381,7 +381,7 @@ body {
 
 .video__item--2 {
   background-color: #1E88E5; /* 5500FF */
-  background-image: url("/img/home/mtl.jpg");
+  background-image: url("/img/home/mtl.png");
   background-size: cover;
 }
 
@@ -391,7 +391,7 @@ body {
 
 .video__item--3 {
   background-color: #eca700; /* F0DFC0 */
-  background-image: url("/img/home/kom-2015.jpg");
+  background-image: url("/img/home/sc-kom.png");
   background-size: cover;
 }
 
