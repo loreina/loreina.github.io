@@ -225,7 +225,7 @@ textarea {
 @font-face {
   font-family: 'Gotham';
   src: url(/css/fonts/Gotham-Medium.otf);
-  font-weight:600
+  font-weight: 600
 }
 
 @font-face {
@@ -233,6 +233,7 @@ textarea {
   src: url(/css/fonts/Gotham-Light.otf);
   font-weight: 300
 }
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -248,7 +249,7 @@ textarea {
 }
 
 body {
-  font-family: "Avenir","Gotham","Helvetica","Verdana",sans-serif;
+  font-family: "Avenir","Dosis",sans-serif;
   background-color: #ebeaeb;
 }
 
