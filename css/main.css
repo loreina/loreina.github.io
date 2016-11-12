@@ -223,6 +223,13 @@ textarea {
 }
 
 @font-face {
+  font-family: 'Calibre';
+  src: url('css/font/CalibreWeb-Regular.eot'); // IE9 Compat Modes
+  src: url('css/font/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+       url('css/font/CalibreWeb-Regular.woff') format('woff'); // Pretty Modern Browsers
+}
+
+@font-face {
     font-family: "Circular-Pro-Book";
     src: url("css/fonts/lineto-circular-pro-book.eot");
     src: url("css/fonts/lineto-circular-pro-book.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-pro-book.woff") format("woff"), url("../fonts/lineto-circular-pro-book.ttf") format("truetype"), url("../fonts/lineto-`circular-pro-book.svg#lineto-circular-pro-book") format("svg");
@@ -251,17 +258,6 @@ textarea {
     font-style: normal;
 }
 
-@font-face {
-  font-family: 'Gotham';
-  src: url(/css/fonts/Gotham-Medium.otf);
-  font-weight: 600
-}
-
-@font-face {
-  font-family: 'Gotham';
-  src: url(/css/fonts/Gotham-Light.otf);
-  font-weight: 300
-}
 
 .cf:before,
 .cf:after {
@@ -278,7 +274,7 @@ textarea {
 }
 
 body {
-  font-family:  "Circular","Avenir","Dosis",sans-serif;
+  font-family:  "Circular","Avenir",sans-serif;
   background-color: #ebeaeb;
 }
 
@@ -306,6 +302,7 @@ body {
 
 .name__text {
   color: #6c6c6c;
+  font-family: "Avenir";
   font-size: 40px; /* 43px */
   font-weight: 600;
 }
