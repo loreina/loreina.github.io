@@ -439,23 +439,23 @@ body {
 }
 
 .video__item--5 {
-  background-color: #43A047; /* FF5500 */
+  background-color: #76772B; /* FF5500 */
   background-image: url("/img/home/LF.png");
   background-size: cover;
 }
 
 .video__layer--5 {
-  background-color: #A5D6A7; /* FFBB99 */
+  background-color: #D6D2A5; /* FFBB99 */
 }
 
 .video__item--6 {
-  background-color: #76772B; /* 002AFF */
-  background-image: url("/img/home/ghost.jpg");
+  background-color: #43A047; /* 002AFF */
+  background-image: url("/img/home/ghost-2.jpg");
   background-size: cover;
 }
 
 .video__layer--6 {
-  background-color: #D6D2A5; /* 99AAFF */
+  background-color: #A5D6A7; /* 99AAFF */
 }
 
 .video__item__text {
