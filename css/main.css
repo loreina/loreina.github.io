@@ -310,6 +310,7 @@ body {
 .summary {
   float: left;
   margin-top: -14px; /* 32px */
+  margin-bottom: 14px; 
 }
 
 .summary__text {
