@@ -310,7 +310,7 @@ body {
 .summary {
   float: left;
   margin-top: -14px; /* 32px */
-  margin-bottom: 14px; 
+  margin-bottom: 14px;
 }
 
 .summary__text {
@@ -439,18 +439,18 @@ body {
 }
 
 .video__item--5 {
-  background-color: #638ca6; /* FF5500 */
-  background-image: url("/img/home/illustrations.jpg");
+  background-color: #9C9C4C; /* FF5500 */
+  background-image: url("/img/home/LF.png");
   background-size: cover;
 }
 
 .video__layer--5 {
-  background-color: #7fa6bf; /* FFBB99 */
+  background-color: #D6D2A5; /* FFBB99 */
 }
 
 .video__item--6 {
   background-color: #43A047; /* 002AFF */
-  background-image: url("/img/work/photography/photo-45.jpg");
+  background-image: url("/img/home/ghost.jpg");
   background-size: cover;
 }
 
