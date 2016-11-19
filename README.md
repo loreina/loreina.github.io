@@ -1,3 +1,3 @@
-# lor-02
+# loreina.github.io
 
-portfolio v2
+a cool little website for myself
