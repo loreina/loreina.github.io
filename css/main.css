@@ -410,7 +410,7 @@ body {
   transition: opacity .1s;
 }
 
-.wrk__layer:hover {
+.wrk__item:hover {
   opacity: 0.9;
 }
 
@@ -419,6 +419,7 @@ body {
   background-image: url("/img/work/blue-planet.jpg");
   background-size: cover;
 }
+
 
 .wrk__item--2 {
   background-color: #875da7; /* 5500FF */
