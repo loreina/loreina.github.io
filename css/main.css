@@ -451,13 +451,12 @@ body {
   position: absolute;
   pointer-events: none;
   visibility: hidden;
-  opacity: 0; */
+  opacity: 0;
 }
 
 .wrk__item:hover .wrk__item__text {
   visibility: visible;
   opacity: 1;
-  -webkit-transition:opacity 300ms;
 }
 
 .wrk__item__title {
