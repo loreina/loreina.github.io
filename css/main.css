@@ -298,9 +298,21 @@ body {
   padding-right: 20px;
 }
 
-@media screen and (min-width: 1056px) {
+@media (min-width: 768px) {
   .container {
-    padding-top: 120px; /* 156px */
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px
   }
 }
 
