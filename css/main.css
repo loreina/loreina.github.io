@@ -411,10 +411,6 @@ body {
   transition: opacity .1s;
 }
 
-.wrk__layer:hover {
-  opacity: 0.9;
-}
-
 .wrk__item:hover {
   opacity: 0.9;
 }
