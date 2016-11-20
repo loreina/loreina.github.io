@@ -347,7 +347,7 @@ body {
 
 .about__body {
   color: #6c6c6c; /* 081F4D */
-  font-size: 16px; /* 18px */
+  font-size: 15px; /* 18px */
   font-weight: normal;
   line-height: 150%;
 }
@@ -418,10 +418,6 @@ body {
   /* background-color: #E53935; 99DDFF ; material design 600 */
   background-image: url("/img/work/blue-planet.jpg");
   background-size: cover;
-}
-
-.wrk__layer--1 {
-  background-color: #EF9A9A; /* 00AAFF ; material design 200 */
 }
 
 .wrk__item--2 {
