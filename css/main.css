@@ -418,7 +418,6 @@ body {
 .wrk__item--1 {
   background-image: url("/img/work/blue-planet.jpg");
   background-size: cover;
-  height: auto;
 }
 
 .wrk__item--2 {
@@ -479,7 +478,7 @@ body {
 @media screen and (min-width: 890px) {
   .wrk__item {
     width: 392px;
-    height: auto;
+    height: 100%;
   }
 }
 
