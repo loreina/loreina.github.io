@@ -475,6 +475,13 @@ body {
   bottom: 14px; /* 32px */
   position: absolute;
   pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.wrk_item:hover .wrk__item__text {
+  visibility: visible;
+  opacity: 1;
 }
 
 .wrk__item__title {
