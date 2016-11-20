@@ -473,7 +473,7 @@ body {
 
 @media screen and (min-width: 890px) {
   .wrk__item {
-    height: 100px;
+    height: 80px;
     width: 392px;
     padding-bottom: 0px;
   }
