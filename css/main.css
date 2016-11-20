@@ -298,21 +298,9 @@ body {
   padding-right: 20px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 1056px) {
   .container {
-    width: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px
+    padding-top: 120px; /* 156px */
   }
 }
 
@@ -328,6 +316,10 @@ body {
   font-family: "Avenir";
   font-size: 40px; /* 43px */
   font-weight: 600;
+  background-image: -webkit-linear-gradient(92deg,#2697f4,#3acffe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 60s infinite linear;
 }
 
 .summary {

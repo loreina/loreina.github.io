@@ -33,6 +33,7 @@
 <!-- add keywords when live -->
 <!-- <meta name="keyword" content=" "> -->
 <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dosis">
 
 </head>
@@ -42,7 +43,7 @@
 <div class="container">
 <div class="header cf">
   <div class="name cf">
-    <span class="name__text">loreina chew</span>
+    <span id="animationSandbox"><span class="name__text">loreina chew</span></span>
   </div>
 
 <!--  <div class="summary cf">
@@ -135,6 +136,28 @@
 
 <div class="end">
 </div>
+
+<script>
+  function testAnim(x) {
+    $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+    });
+  };
+
+  $(document).ready(function(){
+    $('.js--triggerAnimation').click(function(e){
+      e.preventDefault();
+      var anim = $('.js--animations').val();
+      testAnim(anim);
+    });
+
+    $('.js--animations').change(function(){
+      var anim = $(this).val();
+      testAnim(anim);
+    });
+  });
+
+</script>
 
 </body>
 </html>
