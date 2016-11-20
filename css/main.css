@@ -377,7 +377,8 @@ body {
 .wrk {
   clear: both;
   margin-top: 32px;
-
+  max-width: 800px;
+  width: 100%;
 }
 
 .wrk__item {
@@ -415,61 +416,39 @@ body {
 }
 
 .wrk__item--1 {
-  /* background-color: #E53935; 99DDFF ; material design 600 */
-  background-image: url("/img/work/blue-planet.jpg");
+  background-color: #456345;
   background-size: cover;
+  height: auto;
 }
 
-
 .wrk__item--2 {
-  background-color: #875da7; /* 5500FF */
   background-image: url("/img/home/mtl.png");
   background-size: cover;
 }
 
-.wrk__layer--2 {
-  background-color: #b288d2; /* BB99FF */
-}
-
 .wrk__item--3 {
-  background-color: #50c5c1; /* F0DFC0 */
   background-image: url("/img/home/sc-kom.png");
   background-size: cover;
 }
 
-.wrk__layer--3 {
-  background-color: #80d1ce; /* F0B140 */
-}
 
 .wrk__item--4 {
-  background-color: #638ca6; /* FF002B */
   background-image: url("/img/home/h2o.png");
   background-size: cover;
 }
 
-.wrk__layer--4 {
-  background-color: #97bbd2; /* FF99AA */
-}
 
 .wrk__item--5 {
-  background-color: #76772B; /* FF5500 */
   background-image: url("/img/home/LF.png");
   background-size: cover;
 }
 
-.wrk__layer--5 {
-  background-color: #C6BF79; /* FFBB99 */
-}
 
 .wrk__item--6 {
-  background-color: #43A047; /* 002AFF */
   background-image: url("/img/home/banksy.png");
   background-size: cover;
 }
 
-.wrk__layer--6 {
-  background-color: #A5D6A7; /* 99AAFF */
-}
 
 .wrk__item__text {
   bottom: 14px; /* 32px */
@@ -499,8 +478,8 @@ body {
 
 @media screen and (min-width: 890px) {
   .wrk__item {
-    height: 60px; /* 100px */
     width: 392px;
+    height: auto;
   }
 }
 
