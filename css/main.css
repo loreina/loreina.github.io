@@ -479,7 +479,7 @@ body {
   opacity: 0;
 }
 
-.wrk_item:hover .wrk__item__text {
+.wrk__item:hover .wrk__item__text {
   visibility: visible;
   opacity: 1;
 }
