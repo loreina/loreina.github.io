@@ -223,6 +223,17 @@ textarea {
 }
 
 @font-face {
+    font-family: 'Avenir';
+    src: url('css/fonts/avenirltstd-book-webfont.eot');
+    src: url('css/fonts/avenirltstd-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/avenirltstd-book-webfont.woff') format('woff'),
+         url('css/fonts/avenirltstd-book-webfont.ttf') format('truetype'),
+         url('css/fonts/avenirltstd-book-webfont.svg#avenir_lt_std45_book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
   font-family: 'Calibre';
   src: url('css/font/CalibreWeb-Regular.eot'); // IE9 Compat Modes
   src: url('css/font/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
@@ -274,8 +285,8 @@ textarea {
 }
 
 body {
-  font-family:  "Circular","Avenir",sans-serif;
-  background-color: #F2F2F2;
+  font-family:  "Avenir",sans-serif;
+  background-color: #fff;
 }
 
 .container {
@@ -336,16 +347,20 @@ body {
 
 .about__body {
   color: #6c6c6c; /* 081F4D */
-  font-size: 14px; /* 18px */
-  font-weight: 100;
+  font-size: 16px; /* 18px */
+  font-weight: normal;
   line-height: 150%;
 }
 
 .link,
-.link:hover,
 .link:visited,
 .link:active {
-  color: #2294e8; /* 175CE5 */
+  color: #55acee; /* 175CE5 */
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ee5555; /* 175CE5 */
   text-decoration: none;
 }
 
@@ -356,6 +371,140 @@ body {
   color: #2294e8; /* 175CE5 */
   text-decoration: underline;
 }
+
+/* start wrk */
+
+.wrk {
+  clear: both;
+  margin-top: 32px;
+
+}
+
+.wrk__item {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+  cursor: pointer;
+  float: left;
+  height: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  mix-blend-mode: normal;
+  padding-top: 150px; /* 150px */
+  position: relative;
+  transition: background .1s;
+  width: 100%;
+}
+
+.wrk__item span {
+  color: #FFFFFF;
+}
+
+.wrk__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  transition: opacity .1s;
+}
+
+.wrk__layer:hover {
+  opacity: 0.9;
+}
+
+.wrk__item--1 {
+  /* background-color: #E53935; 99DDFF ; material design 600 */
+  background-image: url("/img/work/blue-planet.jpg");
+  background-size: cover;
+}
+
+.wrk__layer--1 {
+  background-color: #EF9A9A; /* 00AAFF ; material design 200 */
+}
+
+.wrk__item--2 {
+  background-color: #875da7; /* 5500FF */
+  background-image: url("/img/home/mtl.png");
+  background-size: cover;
+}
+
+.wrk__layer--2 {
+  background-color: #b288d2; /* BB99FF */
+}
+
+.wrk__item--3 {
+  background-color: #50c5c1; /* F0DFC0 */
+  background-image: url("/img/home/sc-kom.png");
+  background-size: cover;
+}
+
+.wrk__layer--3 {
+  background-color: #80d1ce; /* F0B140 */
+}
+
+.wrk__item--4 {
+  background-color: #638ca6; /* FF002B */
+  background-image: url("/img/home/h2o.png");
+  background-size: cover;
+}
+
+.wrk__layer--4 {
+  background-color: #97bbd2; /* FF99AA */
+}
+
+.wrk__item--5 {
+  background-color: #76772B; /* FF5500 */
+  background-image: url("/img/home/LF.png");
+  background-size: cover;
+}
+
+.wrk__layer--5 {
+  background-color: #C6BF79; /* FFBB99 */
+}
+
+.wrk__item--6 {
+  background-color: #43A047; /* 002AFF */
+  background-image: url("/img/home/banksy.png");
+  background-size: cover;
+}
+
+.wrk__layer--6 {
+  background-color: #A5D6A7; /* 99AAFF */
+}
+
+.wrk__item__text {
+  bottom: 14px; /* 32px */
+  position: absolute;
+  pointer-events: none;
+}
+
+.wrk__item__title {
+  font-size: 12px; /* 16px */
+  font-weight: 600;
+  display: block;
+  padding: 0 16px
+}
+
+.wrk__item__subtitle {
+  font-size: 12px; /* 16px */
+  display: block;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 890px) {
+  .wrk__item {
+    height: 60px; /* 100px */
+    width: 392px;
+  }
+}
+
+.wrk__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* end vrk */
 
 .video {
   clear: both;
@@ -776,7 +925,7 @@ body {
 }
 
 .links__icon {
-  color: #8ac0e8;
+  color: #55acee;
   margin-right: 16px;
   text-decoration: none;
   -webkit-transition: color .1s ease;
@@ -788,12 +937,12 @@ body {
 
 .links__icon:visited,
 .link__icon:link {
-  color: #8ac0e8;
+  color: #55acee;
   text-decoration: none;
 }
 
 .links__icon:hover {
-  color: #55acee;
+  color: #ee5555;
 }
 
 .end {
