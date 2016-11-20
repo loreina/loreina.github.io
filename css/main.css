@@ -416,9 +416,12 @@ body {
 }
 
 .wrk__item--1 {
-  background-color: #55acee;
   background-image: url("/img/work/blue-planet.jpg");
   background-size: cover;
+}
+
+.work__layer--1 {
+  background-color: #55acee;
 }
 
 .wrk__item--2 {
@@ -450,14 +453,14 @@ body {
   bottom: 14px; /* 32px */
   position: absolute;
   pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
+/*  visibility: hidden;
+  opacity: 0; */
 }
 
-.wrk__item:hover .wrk__item__text {
+/* .wrk__item:hover .wrk__item__text {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .wrk__item__title {
   font-size: 12px; /* 16px */
