@@ -416,7 +416,7 @@ body {
 }
 
 .wrk__item--1 {
-  background-color: #456345;
+  background-image: url("/img/work/blue-planet.jpg");
   background-size: cover;
   height: auto;
 }
