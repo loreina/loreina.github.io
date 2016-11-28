@@ -993,7 +993,7 @@ body {
 
 .work__summary {
   color: #6c6c6c;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 100%;
   margin-bottom: 64px;
   text-align: center;
@@ -1001,7 +1001,7 @@ body {
 
 .work__subheader {
   color: #55acee;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   margin-top: 32px;
 }
@@ -1020,7 +1020,7 @@ body {
 
 .work__body {
   color: #6c6c6c;
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 16px;
   padding-bottom: 16px;
   line-height: 150%;
