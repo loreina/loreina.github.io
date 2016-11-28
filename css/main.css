@@ -380,21 +380,21 @@ body {
 
 .wrk {
   clear: both;
-  margin-top: 32px;
+  margin-top: 32px; /* 32px */
 
 }
 
 .wrk__item {
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 0px;
+  border-radius: 3px;
   cursor: pointer;
   float: left;
-  height: 150px;
+  height: 60px; /* 150px */
   margin-right: 12px;
   margin-bottom: 12px;
   mix-blend-mode: normal;
-  padding-top: 150px; /* 150px */
+  padding-top: 0px; /* 150px */
   position: relative;
   transition: background .1s;
   width: 100%;
@@ -414,31 +414,28 @@ body {
   transition: opacity .1s;
 }
 
-.wrk__layer:hover {
+.wrk__item:hover {
   opacity: 0.9;
 }
 
 .wrk__item--1 {
-  background-image: url("/img/home/into-the-wild.jpg");
+  background-color: #9b88d1;
   background-size: cover;
-}
-
-.wrk__layer--1 {
-  background-color: #00AAFF
 }
 
 .wrk__item--2 {
-  background-image: url("/img/home/mtl.png");
+  background-color: #7d99d0;
   background-size: cover;
 }
 
+
 .wrk__item--3 {
-  background-image: url("/img/home/sc-kom.png");
+  background-color: #79b889;
   background-size: cover;
 }
 
 .wrk__item--4 {
-  background-image: url("/img/home/h2o.png");
+  background-color: #db8a85;
   background-size: cover;
 }
 
@@ -489,7 +486,7 @@ body {
   margin-right: 0;
 }
 
-/* end vrk */
+/* end wrk */
 
 .video {
   clear: both;
