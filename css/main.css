@@ -1053,6 +1053,7 @@ body {
 .work__caption {
   color: #909090;
   text-align: center;
+  font-size: 15px;
 }
 
 .work__img__container {
