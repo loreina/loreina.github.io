@@ -419,8 +419,8 @@ body {
 }
 
 .wrk__item--1 {
+  background-color: #00AAFF
   background-image: url("/img/home/into-the-wild.jpg");
-  background-color: ##b285e9;
   background-size: cover;
 }
 
