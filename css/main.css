@@ -1046,6 +1046,7 @@ body {
   margin-top: 32px; /* 48px */
   text-align: center;
   width: 100%;
+  -moz-transform: scale(2);
 }
 
 .work__img--2 {
