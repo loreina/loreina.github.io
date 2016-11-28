@@ -414,14 +414,17 @@ body {
   transition: opacity .1s;
 }
 
-.wrk__item:hover {
+.wrk__layer:hover {
   opacity: 0.9;
 }
 
 .wrk__item--1 {
-  background-color: #00AAFF
   background-image: url("/img/home/into-the-wild.jpg");
   background-size: cover;
+}
+
+.wrk__layer--1 {
+  background-color: #00AAFF
 }
 
 .wrk__item--2 {
