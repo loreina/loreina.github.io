@@ -424,28 +424,28 @@ body {
 }
 
 .wrk__item--2 {
-  background-color: #7d99d0;
+  background-color: #88A5D1;
   background-size: cover;
 }
 
 
 .wrk__item--3 {
-  background-color: #79b889;
+  background-color: #88d19b;
   background-size: cover;
 }
 
 .wrk__item--4 {
-  background-color: #db8a85;
+  background-color: #D1B988;
   background-size: cover;
 }
 
 .wrk__item--5 {
-  background-image: url("/img/home/LF.png");
+  background-color: #db8a85;
   background-size: cover;
 }
 
 .wrk__item--6 {
-  background-image: url("/img/home/banksy.png");
+  background-color: #b5b5b5;
   background-size: cover;
 }
 
