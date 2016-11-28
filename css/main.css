@@ -1013,16 +1013,16 @@ body {
 }
 
 .work__body a {
-  color: #175CE5;
+  color: #55acee;
 }
 
 .work__link {
-  color: #081F4D; /* 081F4D */
+  color: #55acee; /* 081F4D */
   text-decoration: underline;
 }
 
 .work__link:hover {
-  color: #55ACEE; /* 175CE5 */
+  color: #ee5555; /* 175CE5 */
 }
 
 .work__img {
