@@ -286,7 +286,7 @@ textarea {
 
 body {
   font-family:  "Avenir",sans-serif;
-  background-color: #fff;
+  background-color: #f9f9ff;
 }
 
 .container {
@@ -419,7 +419,7 @@ body {
 }
 
 .wrk__item--1 {
-  background-image: url("/img/work/blue-planet.jpg");
+  background-image: url("/img/home/into-the-wild.jpg");
   background-size: cover;
 }
 
