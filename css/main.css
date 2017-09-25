@@ -1,6 +1,6 @@
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
-@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,600');
 
 html {
   font-family: sans-serif;
@@ -288,7 +288,7 @@ textarea {
 
 body {
   font-family:  "Avenir",sans-serif;
-  background-color: #fbfdff;
+  background-color: #fff;
 }
 
 .container {
@@ -309,12 +309,12 @@ body {
 .name {
   float: left;
   margin-right: 80px;
-  margin-top: -32px; /* 32px */
+  margin-top: 36px; /* 32px */
   margin-bottom: 32px;
 }
 
 .name__text {
-  color: #6c6c6c;
+  color: #575757;
   font-family: "Avenir";
   font-size: 40px; /* 43px */
   font-weight: 600;
@@ -324,9 +324,16 @@ body {
   -webkit-animation: hue 20s infinite linear; */
 }
 
+.social-links a {
+  display:inline-block;
+  margin-top: 6px;
+  margin-left: 2px;
+  margin-right:16px;
+}
+
 .summary {
   float: left;
-  margin-top: -14px; /* 32px */
+  margin-top: -32px; /* 32px */
   margin-bottom: 14px;
 }
 
@@ -338,7 +345,7 @@ body {
 .about {
   clear: both;
   padding-top: 16px; /* 64px */
-  max-width: 800px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -353,9 +360,10 @@ body {
 }
 
 .about__body {
-  color: #6c6c6c; /* 081F4D */
+  color: #656565; /* 081F4D */
+  font-family: "Hind";
+  font-weight: 300;
   font-size: 15px; /* 18px */
-  font-weight: normal;
   line-height: 150%;
 }
 
@@ -374,18 +382,18 @@ body {
 a.highlight {
 	position:relative;
 	text-decoration: none;
-    color: #333;
+    color: #656565;
 }
 
 .highlight:before{
 	width:100%;
-	height:10px;
+	height:6px;
 	position:absolute;
 	left:0px;
-	bottom:-4px;
+	bottom:4px;
 	content:"";
 	display:block;
-	background-color: #9EEBCF;
+	background-color: #DEDEDE;
 	z-index:-1;
 	opacity: 1;
 	-webkit-transition: height 0.5s;
@@ -397,9 +405,9 @@ a.highlight:hover{
 }
 
 a.highlight:hover:before {
-	color: #90949C;
-	background-color: #9EEBCF;
-    height:25px;
+	color: #656565;
+	background-color: #DEDEDE;
+    height:20px;
 }
 
 .resume,
@@ -955,7 +963,7 @@ a.highlight:hover:before {
 }
 
 .links__icon {
-  color: #55acee;
+  color: #298CF1;
   margin-right: 16px;
   text-decoration: none;
   -webkit-transition: color .1s ease;
@@ -967,12 +975,12 @@ a.highlight:hover:before {
 
 .links__icon:visited,
 .link__icon:link {
-  color: #55acee;
+  color: #298CF1;
   text-decoration: none;
 }
 
 .links__icon:hover {
-  color: #ee5555;
+  color: #4781C3;
 }
 
 .end {
