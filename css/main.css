@@ -250,7 +250,7 @@ textarea {
 }
 
 body {
-  font-family:  "Avenir",sans-serif;
+  font-family:  "Hind", sans-serif;
   background-color: #fff;
 }
 
@@ -314,7 +314,6 @@ body {
 
 .about__header {
   color: #55acee;
-  font-family: "Avenir";
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 16px;
