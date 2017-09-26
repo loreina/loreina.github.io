@@ -600,6 +600,54 @@ a.highlight:hover:before {
   display:none;
 }
 
+.card-div {
+  width:100%;
+  height:auto;
+  margin-bottom:20px
+}
+
+.card-div img {
+  width:100%;
+  height:auto
+}
+
+@media (min-width: 1000px) {
+  .card-div {
+    width:33.3333%;
+    height:249.9px;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:0;
+    display:inline-block
+  }
+
+  .card-div img {
+    width:100%;
+    transition:all 0.4s;
+    -webkit-transition:all 0.4s
+  }
+}
+
+.intro {
+  text-align:center
+}
+
+.intro p {
+  font-weight:300;
+  color:#fff
+}
+
+.card-div:hover img {
+  opacity:0.8
+}
+
+.card-div .stamp-wrapper {
+  position:absolute;
+  bottom:0;
+  right:0;
+  z-index:10
+}
+
 /* start wrk */
 
 .wrk {
