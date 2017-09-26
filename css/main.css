@@ -332,7 +332,7 @@ body {
   float: left;
   margin-right: 20px;
   margin-top: 0px; /* 32px */
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 
 .name__text {
@@ -524,8 +524,8 @@ a.highlight:hover:before {
 }
 
 .card-div {
-  width:100%;
-  height:auto;
+  width:250px;
+
   margin-bottom:20px
 }
 
