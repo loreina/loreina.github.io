@@ -648,6 +648,10 @@ a.highlight:hover:before {
   z-index:10
 }
 
+.hide {
+  display:none
+}
+
 /* start wrk */
 
 .wrk {
