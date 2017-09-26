@@ -615,7 +615,6 @@ a.highlight:hover:before {
 @media (min-width: 1000px) {
   .card-div {
     width:33.3333%;
-    height:250px;
     position:relative;
     overflow:hidden;
     margin-bottom:0;
