@@ -426,7 +426,7 @@ a.highlight:hover:before {
   width: 100%;
 }
 
-.work-container {
+.projects-container {
   position:relative;
   width:100%;
   max-width:1000px;
@@ -646,10 +646,6 @@ a.highlight:hover:before {
   bottom:0;
   right:0;
   z-index:10
-}
-
-.hide {
-  display:none
 }
 
 /* start wrk */
