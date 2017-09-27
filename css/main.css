@@ -565,9 +565,9 @@ a.highlight:hover:before {
   opacity: 0.9;
 }
 
-.wrk__item--1 { 
+.wrk__item--1 {
   background-color:#99DDFF;
-  background-image:url("/img/home/instantapps.png");
+  background-image:url("/img/figma-1.png");
   background-size:contain
 }
 
