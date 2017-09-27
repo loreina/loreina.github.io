@@ -561,18 +561,8 @@ a.highlight:hover:before {
   transition: opacity .1s;
 }
 
-.wrk__layer:hover { 
+.wrk__layer:hover {
   opacity:0.9
-}
-
-.wrk__layer--1 {
-  background-color:#00AAFF
-}
-
-.wrk__layer--2,
-.wrk__layer--3 {
-  background-color:#FFF;
-  opacity:0
 }
 
 .wrk__item img {
@@ -587,6 +577,22 @@ a.highlight:hover:before {
 .wrk__item--1 {
   background-color:#99DDFF;
   background-image:url("/img/figma-1.png");
+  background-size:cover;
+}
+
+.wrk__layer--1 {
+  background-color:#00AAFF
+}
+
+.wrk__layer--2,
+.wrk__layer--3 {
+  background-color:#FFF;
+  opacity:0
+}
+
+.wrk__item--4 {
+  background-color:#99DDFF;
+  background-image:url("/img/work/parsons/blink.png");
   background-size:cover;
 }
 
