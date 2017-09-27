@@ -630,14 +630,14 @@ a.highlight:hover:before {
   bottom: 14px; /* 32px */
   position: absolute;
   pointer-events: none;
-/*  visibility: hidden;
+visibility: hidden;
   opacity: 0; */
 }
 
-/* .wrk__item:hover .wrk__item__text {
+.wrk__item:hover .wrk__item__text {
   visibility: visible;
   opacity: 1;
-} */
+}
 
 .wrk__item__title {
   font-size: 14px; /* 16px */
