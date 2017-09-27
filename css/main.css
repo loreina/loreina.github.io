@@ -561,6 +561,10 @@ a.highlight:hover:before {
   transition: opacity .1s;
 }
 
+.wrk__layer:hover { 
+  opacity:0.9
+}
+
 .wrk__layer--1 {
   background-color:#00AAFF
 }
@@ -645,7 +649,7 @@ a.highlight:hover:before {
 @media screen and (min-width: 890px) {
   .wrk__item {
     height: 240px; /* 100px, fixes height of square */
-    width: 266.67px; /* 392px */
+    width: 392px; /* 392px */
   }
 }
 
