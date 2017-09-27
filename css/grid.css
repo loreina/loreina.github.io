@@ -1,0 +1,45 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(41,140,241,100);
+  border: 0px solid rgba(41,140,241,100);
+  max-width: 33.3%;
+  height: auto;
+}
+
+.row>.darken-overlay {
+  width:100%;
+  z-index:1;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  background:#000;
+  opacity:0;
+  transition:all 0.2s
+}
+
+.row:hover>.darken-overlay {
+  opacity:0.3
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
