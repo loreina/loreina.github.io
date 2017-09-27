@@ -562,7 +562,7 @@ a.highlight:hover:before {
 }
 
 .wrk__layer:hover {
-  opacity:0.9
+  opacity: 40%;
 }
 
 .wrk__item img {
@@ -630,11 +630,11 @@ a.highlight:hover:before {
   bottom: 14px; /* 32px */
   position: absolute;
   pointer-events: none;
-visibility: hidden;
+/* visibility: hidden;
   opacity: 0; */
 }
 
-.wrk__item:hover .wrk__item__text {
+.wrk__item:hover /* .wrk__item__text */ {
   visibility: visible;
   opacity: 1;
 }
