@@ -20,7 +20,7 @@ h3 {
   background-color: rgba(41,140,241,100);
   border: 0px solid rgba(41,140,241,100);
   max-width: 33.3%;
-  height: auto;
+  height: 200px;
 }
 
 .row>.darken-overlay {

@@ -331,7 +331,7 @@ body {
 .name {
   float: left;
   margin-right: 20px;
-  margin-top: 0px; /* 32px */
+  margin-top: -32px; /* 32px */
   margin-bottom: 12px;
 }
 
