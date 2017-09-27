@@ -562,7 +562,7 @@ a.highlight:hover:before {
 }
 
 .wrk__layer:hover {
-  opacity: 40%;
+  opacity:0.9
 }
 
 .wrk__item img {
@@ -574,6 +574,7 @@ a.highlight:hover:before {
   opacity: 0.9;
 }
 
+
 .wrk__item--1 {
   background-color:#99DDFF;
   background-image:url("/img/figma-1.png");
@@ -581,7 +582,8 @@ a.highlight:hover:before {
 }
 
 .wrk__layer--1 {
-  background-color:#00AAFF
+  background-color:#00AAFF;
+  opacity: 0.3;
 }
 
 .wrk__layer--2,
@@ -596,9 +598,6 @@ a.highlight:hover:before {
   background-size:cover;
 }
 
-.wrk__layer--1 {
-  background-color:#00AAFF
-}
 
 .wrk__item--2 {
   background-color: #88A5D1;
@@ -631,7 +630,7 @@ a.highlight:hover:before {
   position: absolute;
   pointer-events: none;
 /* visibility: hidden;
-  opacity: 0; */
+  opacity: 0; */ *
 }
 
 .wrk__item:hover /* .wrk__item__text */ {
