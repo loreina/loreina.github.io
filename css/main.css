@@ -172,6 +172,7 @@ sup {
 
 img {
   border-style: none;
+  max-width: 100%;
 }
 
 svg:not(:root) {
@@ -561,7 +562,7 @@ a.highlight:hover:before {
 }
 
 .wrk__item img {
-  max-height: 100%
+  height: 100%
 }
 
 .wrk__item:hover {
