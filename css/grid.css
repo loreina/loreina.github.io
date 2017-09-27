@@ -24,10 +24,11 @@ h3 {
 .proj1, .proj2, .proj3 {
   background-position:center;
   background-repeat:no-repeat;
+  background-image: url(img/figma-1.png);
   border-radius:0px;
   cursor:pointer;
   float:left;
-  height:180px;
+  height:200px;
   margin-bottom:16px;
   mix-blend-mode:normal;
   padding-top:150px;
