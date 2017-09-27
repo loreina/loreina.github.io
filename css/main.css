@@ -566,7 +566,7 @@ a.highlight:hover:before {
 }
 
 .wrk__item--1 {
-  background-color: #9b88d1;
+
   background-image:url("img/figma-1.png");
   background-size: cover;
 }
@@ -627,6 +627,14 @@ a.highlight:hover:before {
   .wrk__item {
     height: 240px; /* 100px, fixes height of square */
     width: 266.67px; /* 392px */
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .wrk__item {
+    height: 240px; /* 100px, fixes height of square */
+    width: 100%; /* 392px */
+    margin-bottom: 16px;
   }
 }
 
