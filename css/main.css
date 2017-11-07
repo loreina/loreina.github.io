@@ -314,14 +314,14 @@ body {
   background-color: #fff;
 }
 
-#line {
+/* #line {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   height: 4px;
   background-color: #298CF1;
-}
+} */
 
 .container {
   display: block;
