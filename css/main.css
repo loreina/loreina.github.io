@@ -596,7 +596,7 @@ a.highlight:hover:before {
 }
 
 .wrk__layer--2,
-.wrk__layer--3 {
+.wrk__layer--3, {
   background-color:#FFF;
   opacity:0
 }
@@ -604,6 +604,7 @@ a.highlight:hover:before {
 .wrk__item--4 {
   background-color:#99DDFF;
   background-image:url("/img/work/parsons/blink.png");
+  background-image: opacity: 0.5;
   background-size:cover;
 }
 
