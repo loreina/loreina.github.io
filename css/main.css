@@ -114,7 +114,7 @@ h5 {
 h6 {
   font-size:1.5rem;
   line-height:1.6;
-  letter-spacing:0
+  letter-spacing:0;
 }
 
 @media (min-width: 550px) {
@@ -188,6 +188,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  padding-top: -20px;
 }
 
 button,input,optgroup,select,textarea {
@@ -1202,10 +1203,11 @@ a.highlight:hover:before {
 }
 
 .work__title {
-  color: #55acee;
+  color: #298CF1;
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 40px;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -1224,10 +1226,9 @@ a.highlight:hover:before {
 }
 
 .work__subheader {
-  color: #55acee;
-  font-size: 15px;
+  color: #298CF1;
+  font-size: 17px;
   font-weight: 600;
-  margin-top: 32px;
 }
 
 .work__subsubheader,
@@ -1305,44 +1306,6 @@ a.highlight:hover:before {
   top: 24px;
   left: 24px;
   position: fixed;
-}
-
-.info-box h6,
-h6.accent {
-  font-family:'Montserrat', 'Hind', sans-serif;
-  text-transform:uppercase;
-  letter-spacing:2px
-}
-
-.info-box p {
-  font-size:1em
-}
-
-.blog .info-box .center {
-  text-align:center
-}
-
-.about p,
-.project p {
-  font-weight:300;
-  color:#333
-}
-
-.about .info-box h6,
-h6.accent {
-  font-size:0.8em;
-  padding:0 0 1em;
-  color:#333;
-  margin-bottom:0
-}
-
-.about .info-box p strong {
-  color:#555
-}
-
-.about .info-box p {
-  padding:0 0 0;
-  margin-bottom:0.4em
 }
 
 /*-----------------------------------*\
