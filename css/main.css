@@ -67,12 +67,8 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: inherit;
-}
-
-b,
-strong {
-  font-weight: bolder;
+  color: #434343;
+  font-weight: 600;
 }
 
 dfn {
@@ -1207,7 +1203,7 @@ a.highlight:hover:before {
 
 .work__title {
   color: #55acee;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 12px;
   text-align: center;
@@ -1309,6 +1305,44 @@ a.highlight:hover:before {
   top: 24px;
   left: 24px;
   position: fixed;
+}
+
+.info-box h6,
+h6.accent {
+  font-family:'Montserrat', 'Hind', sans-serif;
+  text-transform:uppercase;
+  letter-spacing:2px
+}
+
+.info-box p {
+  font-size:1em
+}
+
+.blog .info-box .center {
+  text-align:center
+}
+
+.about p,
+.project p {
+  font-weight:300;
+  color:#333
+}
+
+.about .info-box h6,
+h6.accent {
+  font-size:0.8em;
+  padding:0 0 1em;
+  color:#333;
+  margin-bottom:0
+}
+
+.about .info-box p strong {
+  color:#555
+}
+
+.about .info-box p {
+  padding:0 0 0;
+  margin-bottom:0.4em
 }
 
 /*-----------------------------------*\
