@@ -542,12 +542,12 @@ a.highlight:hover:before {
 .wrk__item {
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 0px; /* 3px */
+  border-radius: 8px; /* 3px */
   cursor: pointer;
   float: left;
   height: 64px; /* 150px */
-  margin-right: 0px; /* changes space between squares* */
-  margin-bottom: 0px;
+  margin-right: 16px; /* changes space between squares* */
+  margin-bottom: 16px;
   mix-blend-mode: normal;
   padding-top: 0px; /* 150px */
   position: relative;
