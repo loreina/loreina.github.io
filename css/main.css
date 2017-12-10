@@ -1227,7 +1227,7 @@ a.highlight:hover:before {
 
 .work__subheader {
   color: #298CF1;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -1268,7 +1268,7 @@ a.highlight:hover:before {
   border: 1px solid #DDDDDD;
   display: inline-block;
   margin-bottom: 8px;
-  width: 80%;
+  width: 100%;
 }
 
 .work__img--small {
