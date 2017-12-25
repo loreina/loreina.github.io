@@ -1265,7 +1265,7 @@ a.highlight:hover:before {
 }
 
 .work__img {
-  border: 1px solid #DDDDDD;
+  border: 0px solid #DDDDDD;
   display: inline-block;
   margin-bottom: 8px;
   width: 100%;
