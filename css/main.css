@@ -598,17 +598,6 @@ a.highlight:hover:before {
   background-size: cover;
 }
 
-.wrk__layer-plyr {
-  position:absolute;
-  background-color: #615683;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  opacity:0.7;
-  transition:opacity .1s;
-}
-
 .wrk__item-parsons {
   background-color:#797567;
   background-image:url("/img/work/parsons/blink.png");
