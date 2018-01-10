@@ -593,10 +593,13 @@ a.highlight:hover:before {
 }
 
 .wrk__item-plyr {
-  background-color: #68C3BB;
   background-image: url("/img/work/plyr/plyr_main.jpg");
-  opacity: 0.6;
   background-size: cover;
+}
+
+.wrk__layer-plyr {
+  background-color: #68C3BB;
+  opacity: 0.6;
 }
 
 /* .wrk__item--1 {
