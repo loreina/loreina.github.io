@@ -586,6 +586,14 @@ a.highlight:hover:before {
   background-size: cover;
 }
 
+.wrk__item-100days {
+  background-color: #6E6296;
+  background-image: url("/img/work/100-days/100days_main.jpg");
+  background-size: cover;
+}
+
+
+
 /* .wrk__item--1 {
   background-color:#99DDFF;
   background-image:url("/img/.png");
