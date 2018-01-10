@@ -609,6 +609,12 @@ a.highlight:hover:before {
   transition:opacity .1s;
 }
 
+.wrk__item-parsons {
+  background-color:#99DDFF;
+  background-image:url("/img/work/parsons/blink.png");
+  background-size:cover;
+}
+
 /* .wrk__item--1 {
   background-color:#99DDFF;
   background-image:url("/img/.png");
