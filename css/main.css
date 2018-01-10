@@ -605,9 +605,8 @@ a.highlight:hover:before {
   right:0;
   bottom:0;
   left:0;
-  opacity:0.8;
+  opacity:0.9;
   transition:opacity .1s;
-  opacity: 0.3;
 }
 
 /* .wrk__item--1 {
