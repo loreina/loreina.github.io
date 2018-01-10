@@ -592,7 +592,11 @@ a.highlight:hover:before {
   background-size: cover;
 }
 
-
+.wrk__item-plyr {
+  background-color: #68C3BB;
+  background-image: url("/img/work/plyr/plyr_main.jpg");
+  background-size: cover;
+}
 
 /* .wrk__item--1 {
   background-color:#99DDFF;
