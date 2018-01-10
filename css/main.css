@@ -652,14 +652,14 @@ a.highlight:hover:before {
 */
 
 .wrk__item__title {
-  font-size: 14px; /* 16px */
+  font-size: 16px; /* 16px */
   font-weight: 400;
   display: block;
   padding: 0 16px
 }
 
 .wrk__item__subtitle {
-  font-size: 10px; /* 16px */
+  font-size: 12px; /* 16px */
   display: block;
   padding: 0 16px;
 }
