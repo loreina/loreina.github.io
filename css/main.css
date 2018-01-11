@@ -599,19 +599,19 @@ a.highlight:hover:before {
 }
 
 .wrk__item-parsons {
-  background-color:#FFCC3D;
+  background-color:#FFEC11;
   background-image:url("/img/work/parsons/blink.png");
   background-size:cover;
 }
 
 .wrk__layer-parsons {
   position:absolute;
-  background-color: #FFCC3D;
+  background-color: #FFEC11;
   top:0;
   right:0;
   bottom:0;
   left:0;
-  opacity:0.6;
+  opacity:0.55;
   transition:opacity .1s;
 }
 
