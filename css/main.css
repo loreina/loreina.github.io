@@ -619,6 +619,12 @@ a.highlight:hover:before {
   background-size:cover;
 }
 
+.wrk__item-pp {
+  background-color:#58d093;
+  background-image:url("/img/work/project-play/pp-main.jpg");
+  background-size:cover;
+}
+
 .wrk__layer-parsons {
   position:absolute;
   background-color: #FFF491;
