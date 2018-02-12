@@ -589,6 +589,12 @@ a.highlight:hover:before {
   opacity: 0.9;
 }
 
+.wrk__item-mchacks {
+  background-color: #F07C74;
+  background-image: url("/img/work/mchacks/mchacks-main.jpg");
+  background-size: cover;
+}
+
 .wrk__item-portal {
   background-color: #9AD6E4;
   background-image: url("/img/work/portal/portal-main.jpg");
