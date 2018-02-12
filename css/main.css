@@ -631,6 +631,12 @@ a.highlight:hover:before {
   background-size:cover;
 }
 
+.wrk__item-treet {
+  background-color:#313643;
+  background-image:url("/img/work/treet/treet-main.png");
+  background-size:cover;
+}
+
 .wrk__layer-parsons {
   position:absolute;
   background-color: #FFF491;
