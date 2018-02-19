@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- midterm on friday but i'm making this instead -->
+
+<html lang="en">
+<html class="wf-fontawesome-n4-active wf-active">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/webkul-micron@1.1.4/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+
+  <title>Shelf | Loreina Chew</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+  <link rel="manifest" href="/img/favicon/manifest.json">
+
+  <meta property="og:title" content="Loreina Chew">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://lor.fm/">
+  <meta name="description" content="Hello there, I'm Loreina Chew, a student and designer studying at McGill University.">
+
+  <!-- css for this page -->
+  <link rel="stylesheet" href="css/shelf.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+
+  <div class="container"><div class="ten columns offset-by-one">
+    <div class="title">
+      lor's shelf 📚
+    </div>
+    <div class="text">
+      A cheeky list of books that I've read/am reading/want to read.
+      <br><br>
+      Some upgrades for the future: notes, rating system, search bar, whatever else I think of.
+    </div>
+  </div></div>
+
+  <div class="container"><div class="ten columns offset-by-one">
+    <div class="heading">
+      currently reading
+    </div>
+    <div class="list reading">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Author</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.21 - </td>
+            <td>Subliminal: How Your Unconscious Mind Rules Your Behavior</td>
+            <td>Leonard Mlodinow</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div></div>
+
+  <div class="container"><div class="ten columns offset-by-one">
+    <div class="heading">
+      books i'm desperately trying to get to
+    </div>
+    <div class="list not-read">
+      <table id="sort">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Title</th>
+            <th>Author</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Business</td>
+            <td><a href="http://a.co/9reyVwo">Creativity, Inc.</a></td>
+            <td>Ed Catmull</td>
+          </tr>
+          <tr>
+            <td>Design</td>
+            <td><a href="http://a.co/8NhLZd6">Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days</a></td>
+            <td>Jake Knapp</td>
+          </tr>
+          <tr>
+            <td>Design</td>
+            <td><a href="http://a.co/fHk19XL">Hooked: How to Build Habit-Forming Products</a></td>
+            <td>Nir Eyal</td>
+          </tr>
+          <tr>
+            <td>Design</td>
+            <td><a href="http://a.co/4SajU9P">Well-Designed: How to Use Empathy to Create Products People Love</a></td>
+            <td>John Kolko</td>
+          </tr>
+          <tr>
+            <td>Science</td>
+            <td><a href="http://a.co/2AXkUEJ">The Tale of the Dueling Neurosurgeons</a></td>
+            <td>Sam Kean</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div></div>
+
+  <script src='js/shelf/tablesort.js'></script>
+
+  <script>
+    new Tablesort(document.getElementById('sort'));
+  </script>
+
+</body>
+</html>

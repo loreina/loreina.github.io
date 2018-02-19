@@ -1,0 +1,143 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+body {
+  font-family: 'Inter UI', sans-serif;
+  background-color: #ccdde9;
+  color: #095480;
+}
+
+a {
+  text-decoration: none;
+  color: #095480;
+}
+
+a:hover {
+  color: #6da0c7;
+}
+
+.title {
+  padding-top: 80px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.text {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.heading {
+  padding-top: 80px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.date {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+}
+
+.book {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.list table {
+  width: 100%;
+  max-width: 48rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  border-spacing: 3px;
+}
+
+.list table+p {
+  margin-top: 3rem;
+}
+
+.list table+h2 {
+  margin-top: 2rem;
+}
+
+.list table+hr+hr+blockquote {
+  margin-top: 2rem;
+}
+
+.list table thead th {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.25;
+  padding: 1rem 3rem 1rem 0;
+  border-bottom: 2px solid #6da0c7;
+  white-space: nowrap;
+}
+
+.list table tbody tr {
+  border-bottom: 1px solid #6da0c7;
+}
+
+.list table tbody tr td {
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 1rem 3rem 1rem 0;
+  line-height: 1.25;
+  border-bottom: 2px solid #b0c6d5;
+}
+
+.list table tbody tr td strong {
+  letter-spacing: 0;
+}
+
+/* .list table tbody tr td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 550px) {
+  .list table tbody tr td:first-child {
+    white-space: normal;
+  }
+} */
+
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #095480 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
