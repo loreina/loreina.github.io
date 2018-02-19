@@ -15,6 +15,12 @@ a:hover {
   color: #6da0c7;
 }
 
+.est {
+  font-size: 10px;
+  font-weight: 500;
+  display: inline;
+}
+
 .title {
   padding-top: 80px;
   font-size: 32px;
