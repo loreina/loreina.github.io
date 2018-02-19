@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Inter UI', sans-serif;
-  background-color: #ccdde9;
+  background-color: #f9fdff;
   color: #095480;
 }
 
@@ -19,12 +19,14 @@ a:hover {
   font-size: 10px;
   font-weight: 400;
   display: inline;
+  color: #095480;
 }
 
 .title {
   padding-top: 80px;
   font-size: 32px;
   font-weight: 700;
+  color: #298cf1;
 }
 
 .text {
@@ -38,6 +40,7 @@ a:hover {
   padding-top: 80px;
   font-size: 24px;
   font-weight: 700;
+  color: #b0c6d5;
 }
 
 .date {
