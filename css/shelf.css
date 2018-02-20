@@ -65,7 +65,7 @@ a:hover {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   line-height: 1.25;
-  border-spacing: 3px;
+  border-spacing: 0px;
 }
 
 .list table+p {
