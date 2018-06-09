@@ -1,3 +1,3 @@
 # loreina.github.io
 
-My portfolio website.
+My personal website.
