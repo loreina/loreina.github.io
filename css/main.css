@@ -51,7 +51,7 @@ template,
 
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects
+  -webkit-text-decoration-skip: objects;
 }
 
 a:active,
@@ -428,13 +428,56 @@ body {
 }
 
 .about__body {
-  color: #656565;
+  color: #333333;
   /* 081F4D */
   font-family: "Hind";
   font-weight: 300;
   font-size: 15px;
   /* 18px */
   line-height: 150%;
+}
+
+.proj {
+  clear: both;
+  padding-top: 40px;
+  /* 64px */
+  max-width: 500px;
+  width: 100%;
+  animation: fadein 0.5s both;
+  animation-delay: .6s;
+}
+
+.proj__header {
+  color: #575757;
+  font-family: "Avenir";
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: 0px;
+  /* 1.5px */
+  text-transform: lowercase;
+  /* uppercase */
+}
+
+.proj__body {
+  color: #333333;
+  /* 081F4D */
+  font-family: "Hind";
+  font-weight: 300;
+  font-size: 15px;
+  /* 18px */
+  line-height: 150%;
+}
+
+.proj__body a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #298cf1;
+  text-decoration: none;
+}
+
+.proj__body a:hover {
+  color: #4781C3;
 }
 
 .link,
@@ -454,7 +497,7 @@ body {
 a.highlight {
   position: relative;
   text-decoration: none;
-  color: #656565;
+  color: #333333;
 }
 
 .highlight:before {
@@ -477,7 +520,7 @@ a.highlight:hover {
 }
 
 a.highlight:hover:before {
-  color: #656565;
+  color: #333333;
   background-color: #DEDEDE;
   height: 20px;
 }
@@ -916,8 +959,8 @@ work {
 }
 
 .wrk__item-100days {
-  background-color: #C36C6B;
-  background-image: url("/img/work/100-days/100days_main.jpg");
+  background-color: #C7C7C7;
+  background-image: url("/img/work/100-days/100days_main2.png");
   background-size: cover;
   animation: fadein 0.5s both;
   animation-delay: .8s;

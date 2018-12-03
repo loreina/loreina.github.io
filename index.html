@@ -142,14 +142,6 @@
           </div>
         </a>
 
-        <a href="javascript:delay('/work/treet')" class="wrk__item wrk__item-treet" data-micron="bounce">
-          <div class="wrk__layer"></div>
-          <div class="wrk__item__text">
-            <span class="wrk__item__title"> Treet </span>
-            <span class="wrk__item__subtitle"> A design challenge project. </span>
-          </div>
-        </a>
-
         <a href="javascript:delay('/work/portal')" class="wrk__item wrk__item-portal" data-micron="bounce">
           <div class="wrk__layer"></div>
           <div class="wrk__item__text">
@@ -158,7 +150,15 @@
           </div>
         </a>
 
-        <a href="javascript:delay('/work/time')" class="wrk__item wrk__item-parsons" data-micron="bounce">
+        <a href="javascript:delay('/work/treet')" class="wrk__item wrk__item-treet" data-micron="bounce">
+          <div class="wrk__layer"></div>
+          <div class="wrk__item__text">
+            <span class="wrk__item__title"> Treet </span>
+            <span class="wrk__item__subtitle"> A design challenge project. </span>
+          </div>
+        </a>
+
+        <!-- <a href="javascript:delay('/work/time')" class="wrk__item wrk__item-parsons" data-micron="bounce">
           <div class="wrk__layer"></div>
           <div class="wrk__item__text">
             <span class="wrk__item__title"> Time, </span>
@@ -174,65 +174,98 @@
             <span class="wrk__item__subtitle"> An overview of my design work at Project Play. </span>
           </div>
         </a>
+      </div> -->
       </div>
-    </div>
 
-    <div class="end">
-    </div>
+      <div class="proj">
+        <span class="proj__body">
+          <br><br>
+          <a href="https://github.com/hackmcgill/mchacks6" target="_blank">McHacks website</a>
+          <br>
+          Designed the UI/UX of the McHacks static website using HTML, CSS, JS.
+          <br><br>
+          <a href="https://github.com/loreina/base" target="_blank">Base</a>
+          <br>
+          A Webpack 4 static starter boilerplate for web development with live server reloading, SASS/ES6
+          transpilation,
+          style linting, and file minification.
+          <br><br>
+          <a href="https://github.com/loreina/javascript30" target="_blank">JavaScript 30</a>
+          <br>
+          A 30-day challenge to improve JS skills with no compilers, frameworks, libraries, or boilerplates.
+          <br><br>
+          <a href="http://digitool.Library.McGill.CA:80/R/-?func=dbin-jump-full&object_id=155369&silo_library=GEN01" target="_blank">Habitat 67: A Federation in Parts</a>
+          <br>
+          My architectural history research paper selected by a professor for the McGill eScholarship. Published in the official McGill University repository.
+          <br><br>
+          <a href="/work/time" target="_blank">Time,</a>
+          <br>
+          My creative project submission for the Parsons School of Design undergraduate program.
+          <br><br>
+          <a href="/work/project-play" target="_blank">Project Play</a>
+          <br>
+          An overview of my design work at Project Play.
+          <br><br>
 
-    <script>
-      function testAnim(x) {
-        $('#animationSandbox').removeClass().addClass(x + ' animated').one(
-          'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-          function () {
-            $(this).removeClass();
+        </span>
+      </div>
+
+      <div class="end">
+      </div>
+
+      <script>
+        function testAnim(x) {
+          $('#animationSandbox').removeClass().addClass(x + ' animated').one(
+            'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+            function () {
+              $(this).removeClass();
+            });
+        };
+
+        $(document).ready(function () {
+          $('.js--triggerAnimation').click(function (e) {
+            e.preventDefault();
+            var anim = $('.js--animations').val();
+            testAnim(anim);
           });
-      };
 
-      $(document).ready(function () {
-        $('.js--triggerAnimation').click(function (e) {
-          e.preventDefault();
-          var anim = $('.js--animations').val();
-          testAnim(anim);
+          $('.js--animations').change(function () {
+            var anim = $(this).val();
+            testAnim(anim);
+          });
         });
+      </script>
 
-        $('.js--animations').change(function () {
-          var anim = $(this).val();
-          testAnim(anim);
-        });
-      });
-    </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+      <script src="js/zoom.js"></script>
+      <script src="js/transition.js"></script>
+      <script src="https://unpkg.com/webkul-micron@1.1.4/dist/script/micron.min.js" type="text/javascript"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="js/zoom.js"></script>
-    <script src="js/transition.js"></script>
-    <script src="https://unpkg.com/webkul-micron@1.1.4/dist/script/micron.min.js" type="text/javascript"></script>
+      <script>
+        function delay(URL) {
+          setTimeout(function () {
+            window.location = URL
+          }, 500);
+        }
+      </script>
 
-    <script>
-      function delay(URL) {
-        setTimeout(function () {
-          window.location = URL
-        }, 500);
-      }
-    </script>
+      <script>
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-88384155-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+        ga('create', 'UA-88384155-1', 'auto');
+        ga('send', 'pageview');
+      </script>
 
 </body>
 
