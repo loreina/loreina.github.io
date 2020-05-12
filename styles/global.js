@@ -1,12 +1,12 @@
 import { css } from '@emotion/core'
+import theme from './theme'
 
 const globalStyles = css`
   html,
   body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: ${theme.fonts.body};
     line-height: 1.6;
     font-size: 18px;
   }
@@ -18,7 +18,7 @@ const globalStyles = css`
   h4,
   h5,
   h6 {
-    color: #202225;
+    color: ${theme.colors.black};
   }
 
   * {
@@ -26,7 +26,7 @@ const globalStyles = css`
   }
 
   a {
-    color: #298cf1;
+    color: ${theme.colors.blue};
     text-decoration: none;
   }
 
