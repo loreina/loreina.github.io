@@ -1,5 +1,17 @@
 {
   "github": {
     "silent": true
-  }
+  },
+  "routes": [
+    {
+      "src": "/talks/(.+)",
+      "headers": { "cache-control": "s-maxage=31536000" },
+      "dest": "/talks/$1.html"
+    },
+    {
+      "src": "/work/(.+)",
+      "headers": { "cache-control": "s-maxage=31536000" },
+      "dest": "/work/$1.html"
+    }
+  ]
 }
