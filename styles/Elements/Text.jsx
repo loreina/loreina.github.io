@@ -1,9 +1,8 @@
 import styled from '@emotion/styled'
 import theme from '../theme'
 
-const H1 = styled.h1`
-  font-weight: 600;
+const Text = styled.p`
   color: ${theme.colors.gray800};
 `
 
-export default H1
+export default Text
