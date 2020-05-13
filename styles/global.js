@@ -8,7 +8,8 @@ const globalStyles = css`
     margin: 0;
     font-family: ${theme.fonts.body};
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 16px;
+    background-color: ${theme.colors.gray000};
   }
 
   p,
@@ -18,7 +19,7 @@ const globalStyles = css`
   h4,
   h5,
   h6 {
-    color: ${theme.colors.black};
+    color: ${theme.colors.gray800};
   }
 
   * {
