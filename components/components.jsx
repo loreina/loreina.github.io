@@ -1,3 +1,4 @@
+import Grid from './Grid'
 import Layout from './Layout'
 
-export { Layout }
+export { Grid, Layout }
