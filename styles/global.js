@@ -7,8 +7,9 @@ const globalStyles = css`
     padding: 0;
     margin: 0;
     font-family: ${theme.fonts.body};
-    line-height: 1.6;
     font-size: 16px;
+    line-height: 1.6;
+    color: ${theme.colors.gray800};
     background-color: ${theme.colors.gray000};
   }
 
