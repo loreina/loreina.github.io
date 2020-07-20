@@ -19,7 +19,7 @@ const A = styled.a`
     width: 100%;
     height: 2px;
     background-color: ${(props) =>
-      props.color ? theme.colors[props.color][0] : theme.colors.blue[0]};
+      props.color ? theme.colors[props.color][3] : theme.colors.blue[3]};
     bottom: 2px;
     left: 0;
     right: 0;
@@ -32,7 +32,7 @@ const A = styled.a`
     text-decoration: none;
     height: 2px;
     background-color: ${(props) =>
-      props.color ? theme.colors[props.color][1] : theme.colors.blue[3]};
+      props.color ? theme.colors[props.color][2] : theme.colors.blue[2]};
     bottom: -1px;
     border-radius: 1px;
     transition: all 0.2s ease-in-out;

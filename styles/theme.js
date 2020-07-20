@@ -1,18 +1,12 @@
 const colors = {
-  blueLighter: '#e7e9ff',
-  blueLight: '#dbdeff',
-  blueMedium: '#b6bcff',
-  blue: '#8690ff',
-  blueDark: '#505699',
-  blueDarker: '#282b4d',
-
   blue: [
-    '#8690ff', // blue
-    '#e7e9ff', // blueLighter
-    '#dbdeff', // blueLight
-    '#b6bcff', // blueMedium
-    '#505699', // blueDark
-    '#282b4d', // blueDarker
+    '#e0deff', // 0
+    '#d0ceff', // 1
+    '#a19dff', // 2
+    '#635bff', // 3
+    '#3b3799', // 4
+    '#1e1b4d', // 5
+    '#141233', // 6
   ],
 
   weav: [

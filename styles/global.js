@@ -10,7 +10,7 @@ const globalStyles = css`
     font-size: 16px;
     line-height: 1.6;
     color: ${theme.colors.gray800};
-    background-color: ${theme.colors.gray000};
+    background-color: ${theme.colors.white};
   }
 
   p,
