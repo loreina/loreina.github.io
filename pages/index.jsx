@@ -17,21 +17,41 @@ function Index() {
             student at McGill University.
           </Box>
           <Box mt={16}>
-            This summer, I'm managing product at{' '}
+            This summer, I'm interning at{' '}
+            <A
+              href="https://thesweaterguys.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sweater Guys
+            </A>
+            , and researching at McGill's{' '}
+            <A
+              href="http://socialstudies.cs.mcgill.ca/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Social Studies of Computing Lab
+            </A>
+            .
+          </Box>
+          <Box mt={16}>
+            I also lead product at{' '}
             <A
               href="https://letsweav.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Weav
-            </A>{' '}
-            and researching at McGill's{' '}
+            </A>
+            , a long-distance ridesharing app for students, and organize
+            McGill's largest annual hackathon,{' '}
             <A
-              href="http://socialstudies.cs.mcgill.ca/"
+              href="https://mchacks.ca"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Social Studies of Computer Science Lab
+              McHacks
             </A>
             .
           </Box>
