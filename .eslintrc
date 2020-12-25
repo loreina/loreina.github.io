@@ -5,11 +5,7 @@
     "es6": true,
     "node": true
   },
-  "plugins": [
-    "emotion",
-    "react",
-    "react-hooks"
-  ],
+  "plugins": ["@emotion", "react", "react-hooks"],
   "extends": ["plugin:prettier/recommended"],
   "parser": "babel-eslint",
   "parserOptions": {

@@ -1,64 +1,31 @@
 import * as React from 'react'
 
-import { Layout } from '../components/components'
-import { A, H2, H3 } from '../styles/shared'
+import Link from 'next/link'
 import { Box, Flex } from 'reflexbox'
+
+import { Chip, Layout, Menu } from '../components'
+import { A, H1, H2, H3 } from '../styles/shared'
+import theme from '../styles/theme'
 
 function Index() {
   return (
     <Layout>
-      <Flex flexDirection="column" my={32}>
-        <Flex flexDirection="column" my={16}>
-          <Box mb={2}>
+      {/* Header */}
+      <Flex width={1} flexDirection="row" mt={32} mb={100}>
+        <Link href="/">
+          <Box width="50%" textAlign="left">
             <H2>Loreina Chew</H2>
           </Box>
-          <Box mt={16}>
-            👋 I'm a web developer, product designer, and computer science
-            student at McGill University.
-          </Box>
-          <Box mt={16}>
-            This summer, I'm interning at{' '}
-            <A
-              href="https://thesweaterguys.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Sweater Guys
-            </A>
-            , and researching at McGill's{' '}
-            <A
-              href="http://socialstudies.cs.mcgill.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Social Studies of Computing Lab
-            </A>
-            .
-          </Box>
-          <Box mt={16}>
-            I also lead product at{' '}
-            <A
-              href="https://letsweav.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Weav
-            </A>
-            , a long-distance ridesharing app for students, and organize
-            McGill's largest annual hackathon,{' '}
-            <A
-              href="https://mchacks.ca"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              McHacks
-            </A>
-            .
-          </Box>
-        </Flex>
-        <Flex flexDirection="column" my={16}>
-          <H3>Projects</H3>
-        </Flex>
+        </Link>
+        <Box width="50%" textAlign="right">
+          <Chip bg={theme.colors.red[1]} color={theme.colors.red[0]}>
+            ⚠️ Website under construction
+          </Chip>
+        </Box>
+      </Flex>
+      {/* Nav */}
+      <Flex>
+        <Menu />
       </Flex>
     </Layout>
   )

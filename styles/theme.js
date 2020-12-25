@@ -9,6 +9,14 @@ const colors = {
     '#141233', // 6
   ],
 
+  purple: '#6772E5',
+  purple20: '#E1E3FA',
+
+  red: [
+    '#EE6C67', // 0
+    '#FEF1F0', // 1
+  ],
+
   weav: [
     '#f20951', // weav
     '#fbb5cb',
@@ -28,7 +36,7 @@ const colors = {
 }
 
 const fonts = {
-  header: '-apple-system, system-ui, BlinkMacSystemFont, sans-serif',
+  header: 'Lato, -apple-system, system-ui, BlinkMacSystemFont, sans-serif',
   body: '-apple-system, system-ui, BlinkMacSystemFont, sans-serif',
 }
 
