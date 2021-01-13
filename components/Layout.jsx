@@ -8,14 +8,14 @@ const Layout = styled.div`
   align-content: flex-start;
   justify-content: space-around;
   box-sizing: border-box;
-  max-width: 90%;
-  padding: 0 5%;
+  width: 80%;
+  padding: 0 10%;
   margin: 4rem auto 6rem;
 
-  @media only screen and (min-width: 1200px) {
+  /* @media only screen and (min-width: 1200px) {
     max-width: 80%;
     padding: 0 10%;
-  }
+  } */
 `
 
 export default Layout

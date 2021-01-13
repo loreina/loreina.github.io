@@ -36,7 +36,7 @@ const colors = {
 }
 
 const fonts = {
-  header: 'Lato, -apple-system, system-ui, BlinkMacSystemFont, sans-serif',
+  header: '-apple-system, system-ui, BlinkMacSystemFont, sans-serif',
   body: '-apple-system, system-ui, BlinkMacSystemFont, sans-serif',
 }
 

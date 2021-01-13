@@ -3,8 +3,10 @@ import theme from '../theme'
 
 const H2 = styled.h2`
   font-family: ${theme.fonts.header};
-  font-weight: medium;
-  color: ${theme.colors.gray700};
+  font-size: 24px;
+  font-weight: 500;
+  color: ${(p) => p.color || theme.colors.black};
+  opacity: ${(p) => p.opacity};
   margin: 0;
 `
 

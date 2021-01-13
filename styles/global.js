@@ -2,7 +2,8 @@ import { css } from '@emotion/react'
 import theme from './theme'
 
 const globalStyles = css`
-  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
+  /* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
 
   html,
   body {
