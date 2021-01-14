@@ -6,11 +6,14 @@ export default function Home() {
     <div className="px-8 py-32 lg:px-0">
       {/* Center column */}
       <div className="flex flex-col max-w-4xl mx-auto justify-content">
-        <div className="flex flex-col lg:flex-row">
-          <div className="w-full lg:w-1/2 mb-4 lg:mb-0 items-center text-left">
+        {/* Header */}
+        <div className="flex flex-col md:flex-row">
+          {/* Header left */}
+          <div className="w-full md:w-1/2 mb-4 md:mb-0 items-center text-left">
             <p className="text-2xl font-medium text-gray-900">Loreina Chew</p>
           </div>
-          <div className="w-3/4 lg:w-1/2 flex flex-row lg:justify-end items-center lg:text-right">
+          {/* Header right */}
+          <div className="w-1/2 md:w-1/2 flex flex-row justify-start md:justify-end items-center md:text-right">
             <a
               className="w-1/6"
               type="button"
