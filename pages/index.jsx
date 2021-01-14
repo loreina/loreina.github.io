@@ -167,11 +167,17 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <object
                   className="mb-4 cursor-pointer group-hover:opacity-90"
-                  style={{ transition: 'all .15s ease' }}
-                  src="mchacks.svg"
-                />
+                  data="mchacks.svg"
+                  type="image/svg+xml"
+                >
+                  <img
+                    className="mb-4 cursor-pointer group-hover:opacity-90"
+                    style={{ transition: 'all .15s ease' }}
+                    src="mchacks.svg"
+                  />
+                </object>
                 <p
                   className="text-xl font-medium text-gray-900 mb-1 group-hover:text-mchacks"
                   style={{ transition: 'all .15s ease' }}
@@ -189,11 +195,17 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  className="mb-4 cursor-pointer group-hover:opacity-80"
-                  style={{ transition: 'all .15s ease' }}
-                  src="weav.svg"
-                />
+                <object
+                  className="mb-4 cursor-pointer group-hover:opacity-90"
+                  data="weav.svg"
+                  type="image/svg+xml"
+                >
+                  <img
+                    className="mb-4 cursor-pointer group-hover:opacity-90"
+                    style={{ transition: 'all .15s ease' }}
+                    src="weav.svg"
+                  />
+                </object>
                 <p
                   className="text-xl font-medium text-gray-900 mb-1 group-hover:text-weav"
                   style={{ transition: 'all .15s ease' }}
@@ -211,11 +223,17 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <object
                   className="mb-4 cursor-pointer group-hover:opacity-90"
-                  style={{ transition: 'all .15s ease' }}
-                  src="sweaterplanet.svg"
-                />
+                  data="sweaterplanet.svg"
+                  type="image/svg+xml"
+                >
+                  <img
+                    className="mb-4 cursor-pointer group-hover:opacity-90"
+                    style={{ transition: 'all .15s ease' }}
+                    src="sweaterplanet.svg"
+                  />
+                </object>
                 <p
                   className="text-xl font-medium text-gray-900 mb-1 group-hover:text-sp"
                   style={{ transition: 'all .15s ease' }}
