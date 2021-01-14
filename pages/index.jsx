@@ -266,8 +266,9 @@ export default function Home() {
                   Hey, I’m Loreina! 👋
                 </p>
                 <p className="text-md font-normal text-gray-900 mb-6">
-                  I’m a designer from Toronto that's played short stunts as a
-                  product manager, web developer, and undergraduate researcher.
+                  I’m a designer from Toronto who’s gotten to wear many hats as
+                  a product manager, web developer, and undergraduate
+                  researcher.
                 </p>
                 <p className="text-md font-normal text-gray-900">
                   I recently graduated with a B.A. in computer science and
@@ -275,6 +276,22 @@ export default function Home() {
                   joining PwC as a tech consultant in 2021.
                 </p>
               </div>
+            </div>
+            {/* Live */}
+            <div className="w-full flex flex-col md:flex-row mb-32">
+              <div class="flex flex-row items-center w-full md:w-1/4 mb-8 md:mb-0">
+                <span class="flex h-3 w-3 mr-2">
+                  <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-red-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                <p className="uppercase text-sm font-bold text-red-400 mr-8">
+                  Live
+                </p>
+              </div>
+              <p className="text-gray-900">
+                Building the easiest way to send, store, and sell bitcoin @
+                Stack
+              </p>
             </div>
             {/* Open source */}
             <div className="w-full flex flex-col md:flex-row mb-16">
