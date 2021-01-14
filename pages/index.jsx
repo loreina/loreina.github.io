@@ -168,12 +168,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="mb-4 cursor-pointer group-hover:opacity-90"
+                  className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
                   data="mchacks.svg"
                   type="image/svg+xml"
                 >
                   <img
-                    className="mb-4 cursor-pointer group-hover:opacity-90"
+                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
                     style={{ transition: 'all .15s ease' }}
                     src="mchacks.svg"
                   />
@@ -196,12 +196,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="mb-4 cursor-pointer group-hover:opacity-90"
+                  className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
                   data="weav.svg"
                   type="image/svg+xml"
                 >
                   <img
-                    className="mb-4 cursor-pointer group-hover:opacity-90"
+                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
                     style={{ transition: 'all .15s ease' }}
                     src="weav.svg"
                   />
@@ -224,12 +224,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="mb-4 cursor-pointer group-hover:opacity-90"
+                  className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
                   data="sweaterplanet.svg"
                   type="image/svg+xml"
                 >
                   <img
-                    className="mb-4 cursor-pointer group-hover:opacity-90"
+                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
                     style={{ transition: 'all .15s ease' }}
                     src="sweaterplanet.svg"
                   />
