@@ -23,7 +23,7 @@ export default function Home() {
       {/* Center column */}
       <div className="flex flex-col max-w-4xl mx-auto justify-content">
         {/* Header */}
-        <div className="flex flex-col md:flex-row mb-32">
+        <div className="flex flex-col md:flex-row mb-32 animate-slide1">
           {/* Header left */}
           <div className="w-full md:w-2/3 mb-4 md:mb-0 items-center text-left">
             <p className="text-2xl font-medium text-cool-900 dark:text-cool-50">
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
         </div>
         {/* Nav */}
-        <div className="w-full flex flex-row mb-16">
+        <div className="w-full flex flex-row mb-16 animate-slide2">
           <div className="group mr-6" onClick={() => handleTabs('work')}>
             <button
               className={`text-xl outline-none focus:outline-none ${
@@ -166,7 +166,7 @@ export default function Home() {
         </div>
         {/* Work */}
         {tab === 'work' && (
-          <div className="w-full flex flex-col mb-16">
+          <div className="w-full flex flex-col mb-16 animate-slide3">
             <div className="group w-full mb-16">
               <a
                 href="https://mchacks.ca"
@@ -255,7 +255,7 @@ export default function Home() {
         )}
         {/* About */}
         {tab === 'about' && (
-          <div className="w-full flex flex-col mb-16">
+          <div className="w-full flex flex-col mb-16 animate-slide4">
             {/* Profile image */}
             <div className="mb-16">
               <img src="me.png" />
@@ -302,7 +302,7 @@ export default function Home() {
             {/* Open source */}
             <div className="w-full flex flex-col md:flex-row mb-16">
               <div className="w-full md:w-1/4 mb-8 md:mb-0">
-                <p className="text-sm font-bold uppercase text-cool-900">
+                <p className="text-sm font-bold uppercase text-cool-900 dark:text-cool-50">
                   Open source
                 </p>
               </div>
@@ -339,7 +339,7 @@ export default function Home() {
             {/* Writing */}
             <div className="w-full flex flex-col md:flex-row mb-16">
               <div className="w-full md:w-1/4 mb-8 md:mb-0">
-                <p className="text-sm font-bold uppercase text-cool-900">
+                <p className="text-sm font-bold uppercase text-cool-900 dark:text-cool-50">
                   Writing
                 </p>
               </div>

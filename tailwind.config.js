@@ -27,6 +27,22 @@ module.exports = {
         weav: '#F20951',
         sp: '#765ED4',
       },
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(-20px)' },
+          '100%': { transform: 'translateX(0px)' },
+        },
+        slideBack: {
+          '0%': { transform: 'translateX(20px)' },
+          '100%': { transform: 'translateX(0px)' },
+        },
+      },
+      animation: {
+        slide1: 'slide 0.5s forwards',
+        slide2: 'slide 0.7s forwards',
+        slide3: 'slide 0.3s ease-in forwards',
+        slide4: 'slideBack 0.3s ease-in forwards',
+      },
     },
   },
   variants: {
