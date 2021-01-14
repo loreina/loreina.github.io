@@ -174,7 +174,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
+                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-90"
                   data="mchacks.svg"
                   type="image/svg+xml"
                 >
@@ -202,7 +202,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
+                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-90"
                   data="weav.svg"
                   type="image/svg+xml"
                 >
@@ -230,7 +230,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
+                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-90"
                   data="sweaterplanet.svg"
                   type="image/svg+xml"
                 >
