@@ -39,7 +39,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -62,7 +62,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -107,7 +107,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
