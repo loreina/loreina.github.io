@@ -268,15 +268,15 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-full md:w-1/2 mb-12">
-                <p className="text-md font-normal text-cool-900 dark:text-cool-50 mb-6">
+                <p className="text-md font-normal text-cool-600 dark:text-cool-400 mb-6">
                   Hey, I’m Loreina! 👋
                 </p>
-                <p className="text-md font-normal text-cool-900 dark:text-cool-50 mb-6">
+                <p className="text-md font-normal text-cool-600 dark:text-cool-400 mb-6">
                   I’m a designer from Toronto who’s gotten to wear many hats as
                   a product manager, web developer, and undergraduate
                   researcher.
                 </p>
-                <p className="text-md font-normal text-cool-900 dark:text-cool-50">
+                <p className="text-md font-normal text-cool-600 dark:text-cool-400">
                   I recently graduated with a B.A. in computer science and
                   international development from McGill University, and will be
                   joining PwC as a tech consultant in 2021.
@@ -294,7 +294,7 @@ export default function Home() {
                   Live
                 </p>
               </div>
-              <p className="text-cool-900 dark:text-cool-50">
+              <p className="text-cool-600 dark:text-cool-400">
                 Building the easiest way to send, store, and sell bitcoin @
                 Stack
               </p>
@@ -331,7 +331,8 @@ export default function Home() {
                     hackmcgill / hackerAPI
                   </a>
                   <p className="text-md font-normal text-cool-600 dark:text-cool-400">
-                    The API behind McHacks. Built with NodeJS and MongoDB.
+                    The API behind McHacks. Built with NodeJS, Express, and
+                    MongoDB.
                   </p>
                 </div>
               </div>
