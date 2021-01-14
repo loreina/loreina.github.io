@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     // Page
-    <div className="px-8 py-32 lg:px-0">
+    <div className="px-8 py-32 lg:px-0 dark:bg-gray-900">
       <Head>
         <title>Loreina Chew</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -26,7 +26,9 @@ export default function Home() {
         <div className="flex flex-col md:flex-row mb-32">
           {/* Header left */}
           <div className="w-full md:w-2/3 mb-4 md:mb-0 items-center text-left">
-            <p className="text-2xl font-medium text-gray-900">Loreina Chew</p>
+            <p className="text-2xl font-medium text-cool-900 dark:text-cool-50">
+              Loreina Chew
+            </p>
           </div>
           {/* Header right */}
           <div className="w-1/2 md:w-1/3 flex flex-row justify-start md:justify-end items-center md:text-right">
@@ -39,7 +41,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-cool-400 dark:text-cool-600 hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -62,7 +64,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-cool-400 dark:text-cool-600  hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -85,7 +87,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-cool-400 dark:text-cool-600  hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -107,7 +109,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <svg
-                className="appearance-none stroke-current text-gray-400 hover:text-malibu-400"
+                className="appearance-none stroke-current text-cool-400 dark:text-cool-600  hover:text-malibu-400"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -125,8 +127,10 @@ export default function Home() {
         <div className="w-full flex flex-row mb-16">
           <div className="group mr-6" onClick={() => handleTabs('work')}>
             <button
-              className={`text-xl text-gray-900 outline-none focus:outline-none ${
-                tab === 'work' ? 'font-medium' : 'font-normal'
+              className={`text-xl outline-none focus:outline-none ${
+                tab === 'work'
+                  ? 'font-medium text-cool-900 dark:text-cool-50'
+                  : 'font-normal text-cool-600 dark:text-cool-400 group-hover:text-cool-900 dark:group-hover:text-cool-50'
               }`}
             >
               Work
@@ -142,8 +146,10 @@ export default function Home() {
           </div>
           <div className="group mr-6" onClick={() => handleTabs('about')}>
             <button
-              className={`text-xl text-gray-900 outline-none focus:outline-none ${
-                tab === 'about' ? 'font-medium' : 'font-normal'
+              className={`text-xl outline-none focus:outline-none ${
+                tab === 'about'
+                  ? 'font-medium text-cool-900 dark:text-cool-50'
+                  : 'font-normal text-cool-600 dark:text-cool-400 group-hover:text-cool-900 dark:group-hover:text-cool-50'
               }`}
             >
               About
@@ -179,12 +185,12 @@ export default function Home() {
                   />
                 </object>
                 <p
-                  className="text-xl font-medium text-gray-900 mb-1 group-hover:text-mchacks"
+                  className="text-xl font-medium text-cool-900 dark:text-cool-50 mb-1 group-hover:text-mchacks"
                   style={{ transition: 'all .15s ease' }}
                 >
                   McHacks
                 </p>
-                <p className="text-xl font-normal text-gray-400">
+                <p className="text-xl font-normal text-cool-400">
                   Designing for Canada's favourite hackathon
                 </p>
               </a>
@@ -207,12 +213,12 @@ export default function Home() {
                   />
                 </object>
                 <p
-                  className="text-xl font-medium text-gray-900 mb-1 group-hover:text-weav"
+                  className="text-xl font-medium text-cool-900 dark:text-cool-50 mb-1 group-hover:text-weav"
                   style={{ transition: 'all .15s ease' }}
                 >
                   Weav
                 </p>
-                <p className="text-xl font-normal text-gray-400">
+                <p className="text-xl font-normal text-cool-400">
                   Matching students to rideshares between cities
                 </p>
               </a>
@@ -235,12 +241,12 @@ export default function Home() {
                   />
                 </object>
                 <p
-                  className="text-xl font-medium text-gray-900 mb-1 group-hover:text-sp"
+                  className="text-xl font-medium text-cool-900 dark:text-cool-50 mb-1 group-hover:text-sp"
                   style={{ transition: 'all .15s ease' }}
                 >
                   Sweater Planet
                 </p>
-                <p className="text-xl font-normal text-gray-400">
+                <p className="text-xl font-normal text-cool-400">
                   Web components for an e-commerce platform
                 </p>
               </a>
@@ -257,20 +263,20 @@ export default function Home() {
             {/* About me */}
             <div className="w-full flex flex-col md:flex-row mb-16">
               <div className="w-full md:w-1/4 mb-8 md:mb-0">
-                <p className="text-sm font-bold uppercase text-gray-900">
+                <p className="text-sm font-bold uppercase text-cool-900 dark:text-cool-50">
                   About me
                 </p>
               </div>
               <div className="w-full md:w-1/2 mb-12">
-                <p className="text-md font-normal text-gray-900 mb-6">
+                <p className="text-md font-normal text-cool-900 dark:text-cool-50 mb-6">
                   Hey, I’m Loreina! 👋
                 </p>
-                <p className="text-md font-normal text-gray-900 mb-6">
+                <p className="text-md font-normal text-cool-900 dark:text-cool-50 mb-6">
                   I’m a designer from Toronto who’s gotten to wear many hats as
                   a product manager, web developer, and undergraduate
                   researcher.
                 </p>
-                <p className="text-md font-normal text-gray-900">
+                <p className="text-md font-normal text-cool-900 dark:text-cool-50">
                   I recently graduated with a B.A. in computer science and
                   international development from McGill University, and will be
                   joining PwC as a tech consultant in 2021.
@@ -288,7 +294,7 @@ export default function Home() {
                   Live
                 </p>
               </div>
-              <p className="text-gray-900">
+              <p className="text-cool-900 dark:text-cool-50">
                 Building the easiest way to send, store, and sell bitcoin @
                 Stack
               </p>
@@ -296,35 +302,35 @@ export default function Home() {
             {/* Open source */}
             <div className="w-full flex flex-col md:flex-row mb-16">
               <div className="w-full md:w-1/4 mb-8 md:mb-0">
-                <p className="text-sm font-bold uppercase text-gray-900">
+                <p className="text-sm font-bold uppercase text-cool-900">
                   Open source
                 </p>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <div className="w-full flex flex-col mb-12">
                   <a
-                    className="font-semibold text-malibu-400 hover:text-gray-400 mb-4"
+                    className="font-semibold text-malibu-400 hover:text-cool-400 mb-4"
                     href="https://github.com/hackmcgill/dashboard"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     hackmcgill / dashboard
                   </a>
-                  <p className="text-md font-normal text-gray-600">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
                     The hackathon dashboard for McHacks with organizers,
                     sponsors, and students. Built with React and TypeScript.
                   </p>
                 </div>
                 <div className="w-full flex flex-col mb-12">
                   <a
-                    className="font-semibold text-malibu-400 hover:text-gray-400 mb-4"
+                    className="font-semibold text-malibu-400 hover:text-cool-400 mb-4"
                     href="https://github.com/loreina/hackmcgill"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     hackmcgill / hackerAPI
                   </a>
-                  <p className="text-md font-normal text-gray-600">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
                     The API behind McHacks. Built with NodeJS and MongoDB.
                   </p>
                 </div>
@@ -333,34 +339,34 @@ export default function Home() {
             {/* Writing */}
             <div className="w-full flex flex-col md:flex-row mb-16">
               <div className="w-full md:w-1/4 mb-8 md:mb-0">
-                <p className="text-sm font-bold uppercase text-gray-900">
+                <p className="text-sm font-bold uppercase text-cool-900">
                   Writing
                 </p>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <div className="w-full flex flex-col mb-12">
                   <a
-                    className="font-semibold text-malibu-400 hover:text-gray-400 mb-4"
+                    className="font-semibold text-malibu-400 hover:text-cool-400 mb-4"
                     href="https://escholarship.mcgill.ca/concern/papers/fn106z29n"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Habitat 67: A Federation in Parts
                   </a>
-                  <p className="text-md font-normal text-gray-600">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
                     Published course paper analyzing the architectural history
                     and national significance of Habitat 67 in Montreal during
                     Expo '67.
                   </p>
                 </div>
                 <div className="w-full flex flex-col mb-12">
-                  <p className="font-semibold text-gray-900 mb-4">
+                  <p className="font-semibold text-cool-900 dark:text-cool-50 mb-4">
                     Ethics in Interaction Design
                   </p>
-                  <p className="text-md font-normal text-gray-600">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
                     Undergraduate research paper exploring the ethical issues in
                     interaction design practice.{' '}
-                    <span className="text-gray-400 italic">Coming soon.</span>
+                    <span className="text-cool-400 italic">Coming soon.</span>
                   </p>
                 </div>
               </div>
@@ -370,7 +376,7 @@ export default function Home() {
         {/* Scroll to top */}
         <div className="block m-auto" onClick={() => scrollToTop()}>
           <svg
-            className="stroke-current text-gray-900 hover:text-malibu-400 cursor-pointer animate-bounce"
+            className="stroke-current text-cool-900 dark:text-cool-50 hover:text-malibu-400 cursor-pointer animate-bounce"
             width="24"
             height="24"
             viewBox="0 0 24 24"
