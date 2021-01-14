@@ -31,7 +31,7 @@ export default function Home() {
           {/* Header right */}
           <div className="w-1/2 md:w-1/3 flex flex-row justify-start md:justify-end items-center md:text-right">
             <a
-              className="w-1/6"
+              className="w-1/6 appearance-none"
               type="button"
               style={{ transition: 'all .15s ease' }}
               href="https://linkedin.com/in/loreina"
@@ -54,7 +54,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              className="w-1/6"
+              className="w-1/6 appearance-none"
               type="button"
               style={{ transition: 'all .15s ease' }}
               href="https://github.com/loreina"
@@ -77,7 +77,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              className="w-1/6"
+              className="w-1/6 appearance-none"
               type="button"
               style={{ transition: 'all .15s ease' }}
               href="mailto:loreina98@gmail.com"
@@ -99,7 +99,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              className="w-1/6"
+              className="w-1/6 appearance-none"
               type="button"
               style={{ transition: 'all .15s ease' }}
               href="/resume.pdf"
