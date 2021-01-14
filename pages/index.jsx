@@ -1,19 +1,25 @@
-import Head from 'next/head'
+import React, { useState } from 'react'
 
 export default function Home() {
+  const [tab, setTab] = useState('work')
+
+  const handleTabs = (e) => {
+    setTab(e)
+  }
+
   return (
     // Page
     <div className="px-8 py-32 lg:px-0">
       {/* Center column */}
       <div className="flex flex-col max-w-4xl mx-auto justify-content">
         {/* Header */}
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row mb-16">
           {/* Header left */}
-          <div className="w-full md:w-1/2 mb-4 md:mb-0 items-center text-left">
+          <div className="w-full md:w-2/3 mb-4 md:mb-0 items-center text-left">
             <p className="text-2xl font-medium text-gray-900">Loreina Chew</p>
           </div>
           {/* Header right */}
-          <div className="w-1/2 md:w-1/2 flex flex-row justify-start md:justify-end items-center md:text-right">
+          <div className="w-1/2 md:w-1/3 flex flex-row justify-start md:justify-end items-center md:text-right">
             <a
               className="w-1/6"
               type="button"
@@ -103,6 +109,45 @@ export default function Home() {
                 <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
               </svg>
             </a>
+          </div>
+        </div>
+        {/* Nav */}
+        <div className="w-full flex flex-row">
+          <div className="group mr-4">
+            <button
+              className={`text-xl text-gray-900 outline-none focus:outline-none ${
+                tab === 'work' ? 'font-medium' : 'font-regular'
+              }`}
+              onClick={() => handleTabs('work')}
+            >
+              Work
+            </button>
+            <div
+              className={`mt-1 w-full h-1 rounded-full ${
+                tab === 'work'
+                  ? 'bg-malibu-400 bg-opacity-100'
+                  : 'group-hover:bg-malibu-200'
+              }`}
+              style={{ transition: 'all .15s ease' }}
+            />
+          </div>
+          <div className="group mr-4">
+            <button
+              className={`text-xl text-gray-900 outline-none focus:outline-none ${
+                tab === 'about' ? 'font-medium' : 'font-regular'
+              }`}
+              onClick={() => handleTabs('about')}
+            >
+              About
+            </button>
+            <div
+              className={`mt-1 w-full h-1 rounded-full ${
+                tab === 'about'
+                  ? 'bg-malibu-400 bg-opacity-100'
+                  : 'group-hover:bg-malibu-200'
+              }`}
+              style={{ transition: 'all .15s ease' }}
+            />
           </div>
         </div>
       </div>
