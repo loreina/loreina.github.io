@@ -202,12 +202,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-90"
+                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-80"
                   data="weav.svg"
                   type="image/svg+xml"
                 >
                   <img
-                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
+                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-80"
                     style={{ transition: 'all .15s ease' }}
                     src="weav.svg"
                   />
@@ -230,12 +230,12 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <object
-                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-90"
+                  className="max-w-full mb-4 pointer-events-none group-hover:opacity-95"
                   data="sweaterplanet.svg"
                   type="image/svg+xml"
                 >
                   <img
-                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-90"
+                    className="max-w-full mb-4 cursor-pointer group-hover:opacity-95"
                     style={{ transition: 'all .15s ease' }}
                     src="sweaterplanet.svg"
                   />
@@ -268,15 +268,15 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-full md:w-1/2 mb-12">
-                <p className="text-md font-normal text-cool-600 dark:text-cool-400 mb-6">
+                <p className="text-md font-normal text-cool-600 dark:text-cool-300 mb-6">
                   Hey, I’m Loreina! 👋
                 </p>
-                <p className="text-md font-normal text-cool-600 dark:text-cool-400 mb-6">
+                <p className="text-md font-normal text-cool-600 dark:text-cool-300 mb-6">
                   I’m a designer from Toronto who’s gotten to wear many hats as
                   a product manager, web developer, and undergraduate
                   researcher.
                 </p>
-                <p className="text-md font-normal text-cool-600 dark:text-cool-400">
+                <p className="text-md font-normal text-cool-600 dark:text-cool-300">
                   I recently graduated with a B.A. in computer science and
                   international development from McGill University, and will be
                   joining PwC as a tech consultant in 2021.
@@ -294,7 +294,7 @@ export default function Home() {
                   Live
                 </p>
               </div>
-              <p className="text-cool-600 dark:text-cool-400">
+              <p className="text-cool-600 dark:text-cool-300">
                 Building the easiest way to send, store, and sell bitcoin @
                 Stack
               </p>
@@ -316,7 +316,7 @@ export default function Home() {
                   >
                     hackmcgill / dashboard
                   </a>
-                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-300">
                     The hackathon dashboard for McHacks with organizers,
                     sponsors, and students. Built with React and TypeScript.
                   </p>
@@ -330,18 +330,18 @@ export default function Home() {
                   >
                     hackmcgill / hackerAPI
                   </a>
-                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-300">
                     The API behind McHacks. Built with NodeJS, Express, and
                     MongoDB.
                   </p>
                 </div>
               </div>
             </div>
-            {/* Writing */}
+            {/* Research */}
             <div className="w-full flex flex-col md:flex-row mb-16">
               <div className="w-full md:w-1/4 mb-8 md:mb-0">
                 <p className="text-sm font-bold uppercase text-cool-900 dark:text-cool-50">
-                  Writing
+                  Research
                 </p>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
@@ -354,7 +354,7 @@ export default function Home() {
                   >
                     Habitat 67: A Federation in Parts
                   </a>
-                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-300">
                     Published course paper analyzing the architectural history
                     and national significance of Habitat 67 in Montreal during
                     Expo '67.
@@ -364,7 +364,7 @@ export default function Home() {
                   <p className="font-semibold text-cool-900 dark:text-cool-50 mb-4">
                     Ethics in Interaction Design
                   </p>
-                  <p className="text-md font-normal text-cool-600 dark:text-cool-400">
+                  <p className="text-md font-normal text-cool-600 dark:text-cool-300">
                     Undergraduate research paper exploring the ethical issues in
                     interaction design practice.{' '}
                     <span className="text-cool-400 italic">Coming soon.</span>
