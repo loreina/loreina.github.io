@@ -25,13 +25,13 @@ export default function Home() {
         {/* Header */}
         <div className="flex flex-col md:flex-row mb-32 animate-slide1">
           {/* Header left */}
-          <div className="w-full md:w-2/3 mb-4 md:mb-0 items-center text-left">
+          <div className="w-full md:w-2/3 mb-4 md:mb-0 items-baseline text-left">
             <p className="text-2xl font-medium text-cool-900 dark:text-cool-50">
               Loreina Chew
             </p>
           </div>
           {/* Header right */}
-          <div className="w-1/2 md:w-1/3 flex flex-row justify-start md:justify-end items-center md:text-right">
+          <div className="w-1/2 md:w-1/3 flex flex-row items-baseline justify-start md:justify-end md:text-right">
             <a
               className="w-1/6 mr-2 md:mr-0 appearance-none"
               type="button"
@@ -317,8 +317,8 @@ export default function Home() {
                     hackmcgill / dashboard
                   </a>
                   <p className="text-md font-normal text-cool-600 dark:text-cool-300">
-                    The hackathon dashboard for McHacks with organizers,
-                    sponsors, and students. Built with React and TypeScript.
+                    A hackathon dashboard for organizers, sponsors, and
+                    students. Built with React and TypeScript.
                   </p>
                 </div>
                 <div className="w-full flex flex-col mb-12">
@@ -331,8 +331,8 @@ export default function Home() {
                     hackmcgill / hackerAPI
                   </a>
                   <p className="text-md font-normal text-cool-600 dark:text-cool-300">
-                    The API behind McHacks. Built with NodeJS, Express, and
-                    MongoDB.
+                    A REST API powering the tools behind McHacks. Built with
+                    NodeJS, Express, and MongoDB.
                   </p>
                 </div>
               </div>
