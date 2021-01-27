@@ -225,7 +225,7 @@ export default function Home() {
             </div>
             <div className="group w-full mb-16">
               <a
-                href="https://sweaterplanet.com"
+                href="https://www.sweaterplanet.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
