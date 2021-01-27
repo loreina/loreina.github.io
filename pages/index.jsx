@@ -277,9 +277,8 @@ export default function Home() {
                   researcher.
                 </p>
                 <p className="text-md font-normal text-cool-600 dark:text-cool-300">
-                  I recently graduated with a B.A. in computer science and
-                  international development from McGill University, and will be
-                  joining PwC as a tech consultant in 2021.
+                  I'm also a recent graduate from McGill University, with a B.A.
+                  in computer science and international development.
                 </p>
               </div>
             </div>
