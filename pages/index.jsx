@@ -323,7 +323,7 @@ export default function Home() {
                 <div className="w-full flex flex-col mb-12">
                   <a
                     className="font-semibold text-malibu-400 hover:text-cool-400 mb-4"
-                    href="https://github.com/loreina/hackmcgill"
+                    href="https://github.com/hackmcgill/hackerAPI"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
