@@ -294,8 +294,8 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-cool-600 dark:text-cool-300">
-                Building the easiest way to send, store, and sell bitcoin @
-                Stack
+                Building the easiest way to automate bitcoin investments @
+                Bitstack
               </p>
             </div>
             {/* Open source */}
