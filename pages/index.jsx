@@ -294,8 +294,7 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-cool-600 dark:text-cool-300">
-                Building the easiest way to automate bitcoin investments @
-                Bitstack
+                Designing design systems @ Twilio
               </p>
             </div>
             {/* Open source */}
